@@ -11,12 +11,6 @@ count = 7
 
 
 # ------------------------------------ FUNCTIONS ------------------------------------ #
-def store():
-	global textbox
-	values = textbox.get("1.0", "end-1c")
-	print(values)
-
-
 def key_pressed(event):
 	global count
 	if keyboard.is_pressed:
